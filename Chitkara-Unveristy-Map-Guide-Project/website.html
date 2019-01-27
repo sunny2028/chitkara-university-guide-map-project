@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<style>
+body{
+    height: 100%;
+    background-repeat: no-repeat;
+    background:  url("bg.jpg") no-repeat fixed center;
+ background-size: cover; 
+}
+</style>
+<body>
+<center>
+<a href="website.html"><img src="aangad.jpg" ></a>
+</center>
+<br>
+<nav class="w3-bar w3-black">
+  <a href="website.html" class="w3-button w3-bar-item w3-green">Home</a>
+<a href="stark.html" class="w3-button w3-bar-item">Blocks</a>
+<a href="families.html" class="w3-bar-item w3-button">Others</a>
+<a href="resources.html" class="w3-bar-item w3-button">Resources Around</a>
+<a href="transport.html" class="w3-bar-item w3-button">Transport</a>
+<a href="help.html" class="w3-bar-item w3-button  ">Contact us</a>
+
+</nav>
+
+
+
+<div>
+  <img class="mySlides" src="ss3.jpg"
+  
+  style="width:100%">
+<img class="mySlides" src="ss1.jpg"
+  style="width:100%">
+
+
+</div>
+
+<br><br>
+<div width="600" height="500" >
+<h1 class="w3-wide w3-center w3-text-white">Chitkara University </h1>
+<h5 class="w3-wide w3-center w3-text-white">  Chitkara University in Punjab has been founded by Dr. Ashok Chitkara and Dr. Madhu Chitkara who have been passionate teachers for more than 40 years now. Since inception, Chitkara University has been different. ... So are our faculty, our academic strengths and our outlook on teaching and learning.
+ </h5>
+
+ </div><center>
+<video width="700" height="500" controls loops >
+<source src="video.mp4" type="video/mp4">
+</video>
+
+</center>
+
+
+
+ <br><br><br><br><br>
+ <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  hope you enjoying it.
+<a href="https://www.youtube.com/user/ChitkaraU" target="_blank"><i class="fa fa-youtube"></i></a>
+
+  <a href="https://www.facebook.com/ChitkaraU/" target="_blank"><i class="fa fa-facebook-official"></i></a>
+  
+  </footer>
+<script>
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>
